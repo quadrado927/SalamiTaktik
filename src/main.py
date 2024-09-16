@@ -2,12 +2,12 @@ import yfinance as yf
 import pandas as pd
 
 symbols = ["AAPL", "LDO.MI", "NVDA", "RHM.DE", "RTX", "AMZN", "BA", "UBSG.SW", "UCG.MI",
-            "TSLA", "LISN.SW", "NESN.SW", "ZURN.SW", "NOVN", "META", "NFLX", "LMT", "NOC",
-              "GD", "AIR", "TII", "XOM", "SHEL", "CVX", "BP", "EC", "EQNRO", "ENI", "PSX",
-                "WMT", "COST", "TGT", "HD", "CR", "CSV", "CA", "EBAY", "UHRN", "MSFT", "GOOGL",
-                  "IBM", "INTC", "CSCO", "ORCL", "ADBE", "CRM", "SSU", "LOGN.SW", "ABBN.SW", "BKNG",
-                    "LVS", "DAL", "ABNB", "AAL", "LHA", "RYAAY", "GS", "UPS", "DHL", "GE", "BLK", "VTI",
-                      "MS", "HLT", "SHOP", "SBUX", "BAER.SW", "SIN.SW", "ROCH.SW"]
+            "TSLA", "LISN.SW", "NESN.SW", "ZURN.SW", "NOVN.SW", "META", "NFLX", "LMT", "NOC",
+              "GD", "AIR", "XOM", "SHEL", "CVX", "BP", "EC", "EQNR", "E", "PSX",
+                "WMT", "COST", "TGT", "HD", "CR", "CSV", "CA", "EBAY", "UHRN.SW", "MSFT", "GOOGL",
+                  "IBM", "INTC", "CSCO", "ORCL", "ADBE", "CRM", "SSU.JO", "LOGN.SW", "ABBN.SW", "BKNG",
+                    "LVS", "DAL", "ABNB.SW", "AAL", "LHA.DE", "RYAAY", "GS", "UPS", "GE", "BLK", "VTI",
+                      "MS", "HLT", "SHOP", "SBUX", "BAER.SW", "SIE.DU", "ROG.SW", "TII.F"]
 
 
 
