@@ -40,5 +40,5 @@ for symbol in symbols:
 df = pd.DataFrame(data)
 
 
-df.head()
+print(df.head())
 
