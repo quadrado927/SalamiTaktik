@@ -36,13 +36,6 @@ y_train = train_df[target]
 X_test = test_df[features]
 y_test = test_df[target]
 
-
-model = RandomForestRegressor(n_estimators=100, random_state=42)
-
-model.fit(X_train, y_train)
-
-
-
 for n_estimators in n_estimators_values:
     print("BIIIIG ITERATION LIKE MY ....")
     for max_depth in max_depth_values:
